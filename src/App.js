@@ -1,9 +1,9 @@
-import ToDoSample from "./stateSample/ToDoSample"
+import CategoryTable from "./stateSample/CategoryTable"
 
 function App() {
 
   return (<>
-  <ToDoSample/>
+  <CategoryTable/>
   </>
 
   )

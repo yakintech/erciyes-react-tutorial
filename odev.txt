@@ -1,2 +1,11 @@
 Template componentlere parçalanıp giydirilmesi
 https://www.w3schools.com/w3css/tryw3css_templates_architect.htm
+
+
+20.02
+* Productların bir table da listelenmesi
+https://northwind.vercel.app/api/products
+(Id, Name, Stock, Unit Price, quantity per unit)
+
+* Eğer unitPrice 20 den büyükse o satır kırmızı olsun!
+* Stok 0 olanlar table da gözükmesin
