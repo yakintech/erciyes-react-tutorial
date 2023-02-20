@@ -1,15 +1,9 @@
-import Footer from "./templateSamples/template1/Footer"
-import Header from "./templateSamples/template1/Header"
-import Navbar from "./templateSamples/template1/Navbar"
-import PageContent from "./templateSamples/template1/PageContent"
+import StateArraySample2 from "./stateSample/StateArraySample2"
 
 function App() {
 
   return (<>
-    <Navbar/>
-    <Header/>
-    <PageContent/>
-    <Footer/>
+    <StateArraySample2 />
   </>
 
   )
