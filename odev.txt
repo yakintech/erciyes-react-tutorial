@@ -17,4 +17,5 @@ https://northwind.vercel.app/api/suppliers
 * Bir adet delete button ekle ve sildiğinde table yenilensin
 ** loading konulabilir
 
+
 * Ayrı bir sayfada supplier post işlemi yapılması
