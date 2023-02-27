@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, Outlet, Route, Routes } from 'react-router-dom'
 import About from '../routersample/About'
+import AddProduct from '../routersample/AddProduct'
 import Blog from '../routersample/Blog'
 import Contact from '../routersample/Contact'
 import Dashboard from '../routersample/Dashboard'
@@ -20,6 +21,8 @@ function AppViews() {
       <li><Link to='/blog'>Blog</Link></li>
       <li><Link to='/contact'>Contact</Link></li>
       <li><Link to='/products'>Products</Link></li>
+      <li><Link to='/addproduct'>Add Product</Link></li>
+
     </ul>
 
     <hr></hr>
@@ -33,6 +36,7 @@ function AppViews() {
       <Route path="/contact" element={<Contact />}></Route>
       <Route path="/products" element={<Products />}></Route>
       <Route path="/products/:id" element={<ProductDetail />}></Route>
+      <Route path="/addproduct" element={<AddProduct />}></Route>
 
       {/* <Route path="/dashboard" element={<Dashboard/>}>
         <Route path="messages" element={<DashboardMessages/>}></Route>
