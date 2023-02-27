@@ -7,3 +7,6 @@ https://beta.reactjs.org/reference/react/Fragment
 
 html to jsx
 https://transform.tools/html-to-jsx
+
+string template literal
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
