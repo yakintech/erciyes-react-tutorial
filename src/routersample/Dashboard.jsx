@@ -1,13 +1,12 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-function Home() {
+function Dashboard() {
   return (<>
-      <h1>Test</h1>
+    <h1>Dashboard Page</h1>
+
     <Outlet/>
-  </>
-  
-  )
+  </>)
 }
 
-export default Home
+export default Dashboard
