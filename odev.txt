@@ -18,5 +18,17 @@ https://northwind.vercel.app/api/suppliers
 ** loading konulabilir
 
 
+
+28.02
+** Material Data Grid ile productların listelenmesi
+(Id, Name, UnitPrice, UnitsInStock, QuantityPerUnit)
+Listelenen tabloda bir silme işlemi
+*** Silme işlemi sırasında confirm için bir soru sorsun ( Material Dialog ile yapılması)
+** AddCategory işleminin yapılması (düzgün bir form tasarımıyla )
+
+
+
+
+
 * Ayrı bir sayfada supplier post işlemi yapılması
 
