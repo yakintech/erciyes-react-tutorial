@@ -22,3 +22,6 @@ https://chakra-ui.com/ **
 https://react-bootstrap.github.io/ *
 
 
+Beleş Admin Panel
+https://drive.google.com/file/d/1JPJ4pX-l1nXs2s2HVQfNItsh6hGP-Wv0/view?usp=sharing
+

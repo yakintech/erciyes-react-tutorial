@@ -19,3 +19,4 @@ https://northwind.vercel.app/api/suppliers
 
 
 * Ayrı bir sayfada supplier post işlemi yapılması
+
