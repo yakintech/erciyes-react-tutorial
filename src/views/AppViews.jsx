@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Link, Outlet, Route, Routes } from 'react-router-dom'
+import { cartContext } from '../contexts/cartContext'
 import { favoritesContext } from '../contexts/favoritesContext'
 import DataGridOrders from '../material/DataGridOrders'
 import GridSample from '../material/GridSample'
@@ -15,12 +16,15 @@ import Home from '../routersample/Home'
 import NotFound from '../routersample/NotFound'
 import ProductDetail from '../routersample/ProductDetail'
 import Products from '../routersample/Products'
+import Cart from './Cart'
 import Favorites from './Favorites'
 
 
 function AppViews() {
 
   const { favorites } = useContext(favoritesContext)
+  const { cart } = useContext(cartContext)
+
 
   return (
     <>
@@ -35,6 +39,7 @@ function AppViews() {
         <li><Link to='/gridsample'>Grid Sample</Link></li>
         <li><Link to='/datagridorders'>Orders</Link></li>
         <li><Link to='/favorites'>Favorites ({favorites.length})</Link></li>
+        <li><Link to='/cart'>Cart ({cart.length})</Link></li>
 
       </ul>
 
@@ -53,6 +58,7 @@ function AppViews() {
         <Route path="/gridsample" element={<GridSample />}></Route>
         <Route path="/datagridorders" element={<DataGridOrders />}></Route>
         <Route path="/favorites" element={<Favorites />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
 
         {/* <Route path="/dashboard" element={<Dashboard/>}>
         <Route path="messages" element={<DashboardMessages/>}></Route>
